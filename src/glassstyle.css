@@ -8,7 +8,7 @@
 .overlay {
   position: absolute;
   left: 20%;
-  top: 40%;
+  top: 35%;
   width: 30%;
   transform: translate(-50%, -50%);
   z-index: 1;

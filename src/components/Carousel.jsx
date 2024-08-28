@@ -44,6 +44,14 @@ function Carousel(props) {
     setCurrentIndex(getRandomIndex());
   };
 
+  // const handleLeftClick = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+  // };
+
+  // const handleRightClick = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+  // };
+
   return (
     <div className="carouss">
       <button className="item1" onClick={handleLeftClick}>
